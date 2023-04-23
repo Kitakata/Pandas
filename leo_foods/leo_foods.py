@@ -4,7 +4,7 @@ data_dir_path = "/mnt/c/deere/data/by_project/leo foods/"
 file_name_interations = "RAW_interactions.csv"
 file_name_recipes = "RAW_recipes.csv"
 file_name_output1 = "output1.parquet"
-file_name_output2 = "output1.parquet"
+file_name_output2 = "output2.parquet"
 
 # Create dataframes 
 df_recipes = pandas.read_csv(data_dir_path + file_name_recipes)
